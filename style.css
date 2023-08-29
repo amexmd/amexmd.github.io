@@ -1,0 +1,28 @@
+p {
+
+    border-style: inset;
+    border-width: 5px;
+    border-color: blue;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+.redbutton:link,
+.redbutton:visited {
+
+    background-color: #f44336;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+}
+
+.redbutton:hover,
+.redbutton:active {
+
+    background-color: red;
+
+}
