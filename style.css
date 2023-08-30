@@ -2,22 +2,29 @@
 
     font-family: 'Noto Sans', sans-serif;
     background-color: #81e7d7;
-
+    text-shadow: 2px 2px #d4f8fb;
+    color: #49bace;
+    margin: 0;
+    font-size: 68px;
 }
 
-.miku1 {
-
-    width: 100%;
-    display: flex;
-    justify-content: center;
-
-}
 
 body {
 
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
+    background-color: #50d9c6;
+    background-image: url(miku2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
 
+}
+
+html {
+
+    height: 100%;
+    cursor: url('cursor.png'), pointer;
 
 }
